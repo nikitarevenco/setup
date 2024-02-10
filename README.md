@@ -3,6 +3,7 @@
 #### ALT
 | Shortcut | Effect | Name | 
 | -------- | ------ | ------ |
+|   <kbd>ALT</kbd> + <kbd>1-9</kbd>       |          Go to editor number.     | `workbench.action.openEditorAtIndex`     |
 |   <kbd>ALT</kbd> + <kbd>←</kbd>       |          Shrink selection.     | `editor.action.smartSelect.shrink`     |
 |   <kbd>ALT</kbd> + <kbd>→</kbd>       |          Expand selection.     | `editor.action.smartSelect.expand`     |
 |   <kbd>ALT</kbd>       |          Toggles the small top bar with content like `File`, `Edit`, `Selection`, etc.     | `View: Toggle Menu Bar`     |
@@ -12,9 +13,18 @@
 #### CTRL
 | Shortcut | Effect | Name | 
 | -------- | ------ | ------ |
+|   <kbd>CTRL</kbd> + <kbd>\</kbd>       |          Splits the current editor into two editors.     | `workbench.action.splitEditor`     |
+|   <kbd>CTRL</kbd> + <kbd>4</kbd>       |          Show all references.     | `workbench.view.extension.references-view`     |
+|   <kbd>CTRL</kbd> + <kbd>3</kbd>       |          Join lines.     | `editor.action.joinLines`     |
+|   <kbd>CTRL</kbd> + <kbd>'</kbd>       |          Focus to the previous editor group.     | `workbench.action.previousEditorGroup`     |
+|   <kbd>CTRL</kbd> + <kbd>↑</kbd>       |          Scroll up by a page.     | `editorScroll`     |
+|   <kbd>CTRL</kbd> + <kbd>↓'</kbd>       |          Scroll down by a page.     | `editorScroll`     |
+|   <kbd>CTRL</kbd> + <kbd>CAPS</kbd>       |          Swap two letters.     | `Unknown`     |
+|   <kbd>CTRL</kbd> + <kbd>#</kbd>       |          Focus to the next editor group.     | `workbench.action.nextEditorGroup`     |
+|   <kbd>CTRL</kbd> + <kbd>,</kbd>       |          Close all editors but active editor in the active group.     | `workbench.action.closeEditorsInOtherGroups`     |
 |   <kbd>CTRL</kbd> + <kbd>D</kbd>       |          Deletes the current lines or the selected lines.     | `editor.action.deleteLines`     |
 |   <kbd>CTRL</kbd> + <kbd>S</kbd>       |          Selects the current line or adds the next line to the selection.     | `expandLineSelection`     |
-|   <kbd>CTRL</kbd> + <kbd>/</kbd>       |          Toggles comment on selection.     | `Unknown`     |
+|   <kbd>CTRL</kbd> + <kbd>/</kbd>       |          Toggles comment on selection.     | `editor.action.commentLine`     |
 |   <kbd>CTRL</kbd> + <kbd>[</kbd>       |          Folds the current code.     | `editor.fold`     |
 |   <kbd>CTRL</kbd> + <kbd>L</kbd>       |          Go to a specific line.     | `workbench.action.gotoLine`     |
 |   <kbd>CTRL</kbd> + <kbd>Q</kbd>       |          Go to symbol in current file.     | `workbench.action.gotoSymbol`     |
@@ -26,27 +36,27 @@
 |   <kbd>CTRL</kbd> + <kbd>]</kbd>       |          Unfolds the current code.     | `editor.unfold`     |
 |   <kbd>CTRL</kbd> + <kbd>TAB</kbd>       |          Switches to the next editor.     | `workbench.action.nextEditor`     |
 |   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>TAB</kbd>       |          Switches to the previous editor.     | `workbench.action.previousEditor`     |
-|   <kbd>CTRL</kbd> + <kbd>ENTER</kbd>      |          Insert line below.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>ENTER</kbd>       |          Insert line above.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>W</kbd>       |          Close current editor.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>2</kbd>       |          Add selection to next find match.     | `Unknown`     |
+|   <kbd>CTRL</kbd> + <kbd>ENTER</kbd>      |          Insert line below.     | `editor.action.insertLineAfter`     |
+|   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>ENTER</kbd>       |          Insert line above.     | `editor.action.insertLineBefore`     |
+|   <kbd>CTRL</kbd> + <kbd>W</kbd>       |          Close current editor.     | `workbench.action.closeActiveEditor`     |
+|   <kbd>CTRL</kbd> + <kbd>2</kbd>       |          Add selection to next find match.     | `editor.action.addSelectionToNextFindMatch`     |
 
 #### TERMINAL
 | Shortcut | Effect | Name | 
 | -------- | ------ | ------ |
-|   <kbd>CTRL</kbd> + <kbd>V</kbd> + <kbd>V</kbd>       |          Paste into terminal.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>C</kbd> + <kbd>C</kbd>       |          Copy from terminal.     | `Unknown`     |
+|   <kbd>CTRL</kbd> + <kbd>V</kbd> + <kbd>V</kbd>       |          Paste into terminal.     | `terminal.paste`     |
+|   <kbd>CTRL</kbd> + <kbd>C</kbd> + <kbd>C</kbd>       |          Copy from terminal.     | `terminal.copy`     |
 |   <kbd>CAPS</kbd> + <kbd>T</kbd>       |          Toggles the terminal.     | `workbench.action.terminal.toggleTerminal`     |
 |   <kbd>CAPS</kbd> + <kbd>C</kbd>       |          Clears the terminal.     | `workbench.action.terminal.clear`     |
-|   <kbd>CTRL</kbd> + <kbd>←</kbd>       |          Move to left word.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>→</kbd>       |          Move to right word.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>4</kbd>        |          Change color of terminal.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>7</kbd>        |          Focus previous terminal.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>8</kbd>        |          Focus next terminal.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>9</kbd>        |          Rename terminal.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>0</kbd>        |          Kill all terminal instances.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>@</kbd>        |          Kill terminal instance.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>#</kbd>        |          New terminal instance.     | `Unknown`     |
+|   <kbd>CTRL</kbd> + <kbd>←</kbd>       |          Move to left word.     | `workbench.action.terminal.moveToWordStart`     |
+|   <kbd>CTRL</kbd> + <kbd>→</kbd>       |          Move to right word.     | `workbench.action.terminal.moveToWordEnd`     |
+|   <kbd>CTRL</kbd> + <kbd>P</kbd>        |          Change color of terminal.     | `Unknown`     |
+|   <kbd>CTRL</kbd> + <kbd>.</kbd>        |          Focus previous terminal.     | `workbench.action.terminal.focusPreviousPane`     |
+|   <kbd>CTRL</kbd> + <kbd>/</kbd>        |          Focus next terminal.     | `workbench.action.terminal.focusNextPane`     |
+|   <kbd>CTRL</kbd> + <kbd>B</kbd>        |          Rename terminal.     | `workbench.action.terminal.rename`     |
+|   <kbd>CTRL</kbd> + <kbd>;</kbd>        |          Kill all terminal instances.     | `workbench.action.terminal.killAll`     |
+|   <kbd>CTRL</kbd> + <kbd>Y</kbd>        |          Kill terminal instance.     | `workbench.action.terminal.kill`     |
+|   <kbd>CTRL</kbd> + <kbd>H</kbd>        |          New terminal instance.     | `workbench.action.terminal.new`     |
 
 #### CAPS
 | Shortcut | Effect | Name | 
@@ -66,12 +76,14 @@
 #### BASIC
 | Shortcut | Effect | Name | 
 | -------- | ------ | ------ |
-|   <kbd>CTRL</kbd> + <kbd>A</kbd>       |          Select everything in the current file.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>F</kbd>       |          Find in current file.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>C</kbd>       |          Copies the selected content.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>V</kbd>       |          Pastes content from the clipboard.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>X</kbd>       |          Cuts the selected content by copying and deleting it.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>Z</kbd>      |          Redo.     | `Unknown`     |
-|   <kbd>CTRL</kbd> + <kbd>Z</kbd>       |          Undo.     | `Unknown`     |
+|   <kbd>CTRL</kbd> + <kbd>+</kbd>       |          Zoom in.     | `workbench.action.zoomIn`     |
+|   <kbd>CTRL</kbd> + <kbd>-</kbd>       |          Zoom out.     | `workbench.action.zoomOut`     |
+|   <kbd>CTRL</kbd> + <kbd>A</kbd>       |          Select everything in the current file.     | `editor.action.selectAll`     |
+|   <kbd>CTRL</kbd> + <kbd>F</kbd>       |          Find in current file.     | `actions.find`     |
+|   <kbd>CTRL</kbd> + <kbd>C</kbd>       |          Copies the selected content.     | `editor.action.clipboardCopyAction`     |
+|   <kbd>CTRL</kbd> + <kbd>V</kbd>       |          Pastes content from the clipboard.     | `editor.action.clipboardPasteAction`     |
+|   <kbd>CTRL</kbd> + <kbd>X</kbd>       |          Cuts the selected content by copying and deleting it.     | `editor.action.clipboardCutAction`     |
+|   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>Z</kbd>      |          Redo.     | `redo`     |
+|   <kbd>CTRL</kbd> + <kbd>Z</kbd>       |          Undo.     | `undo`     |
 |   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>BACKSPACE</kbd>        |          Deletes word to the right.     | `deleteWordRight`     |
-|   <kbd>SHIFT</kbd> + <kbd>BACKSPACE</kbd>       |          Deletes character to the right.     | `Unknown`     |
+|   <kbd>SHIFT</kbd> + <kbd>BACKSPACE</kbd>       |          Deletes character to the right.     | `deleteRight`     |
