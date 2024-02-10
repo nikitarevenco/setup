@@ -1,4 +1,6 @@
-## VSCode Shortcuts
+<details>
+<summary><h2>VSCode Shortcuts</h2></summary>
+<br>
 
 #### ALT
 | Shortcut | Effect | Name | 
@@ -87,3 +89,5 @@
 |   <kbd>CTRL</kbd> + <kbd>Z</kbd>       |          Undo.     | `undo`     |
 |   <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>BACKSPACE</kbd>        |          Deletes word to the right.     | `deleteWordRight`     |
 |   <kbd>SHIFT</kbd> + <kbd>BACKSPACE</kbd>       |          Deletes character to the right.     | `deleteRight`     |
+
+</details>
