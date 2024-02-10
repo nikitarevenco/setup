@@ -27,7 +27,7 @@
 |   <kbd>CTRL</kbd> + <kbd>,</kbd>       |          Close all editors but active editor in the active group.     | `workbench.action.closeEditorsInOtherGroups`     |
 |   <kbd>CTRL</kbd> + <kbd>D</kbd>       |          Deletes the current lines or the selected lines.     | `editor.action.deleteLines`     |
 |   <kbd>CTRL</kbd> + <kbd>S</kbd>       |          Selects the current line or adds the next line to the selection.     | `expandLineSelection`     |
-|   <kbd>CTRL</kbd> + <kbd>/</kbd>       |          Toggles comment on selection.     | `editor.action.commentLine`     |
+|   <kbd>CTRL</kbd> + <kbd>0</kbd>       |          Toggles comment on selection.     | `editor.action.commentLine`     |
 |   <kbd>CTRL</kbd> + <kbd>[</kbd>       |          Folds the current code.     | `editor.fold`     |
 |   <kbd>CTRL</kbd> + <kbd>L</kbd>       |          Go to a specific line.     | `workbench.action.gotoLine`     |
 |   <kbd>CTRL</kbd> + <kbd>Q</kbd>       |          Go to symbol in current file.     | `workbench.action.gotoSymbol`     |
