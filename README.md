@@ -66,6 +66,7 @@
 
 | Shortcut | Effect | Name | 
 | -------- | ------ | ------ |
+|   <kbd>CAPS</kbd> + <kbd>J</kbd>       |          Accept commit message.     | `git.commitMessageAccept`     |
 |   <kbd>CAPS</kbd> + <kbd>Z</kbd>       |          Removes HTML tag.     | `editor.emmet.action.removeTag`     |
 |   <kbd>CAPS</kbd> + <kbd>Q</kbd>       |          Wraps selected content inside of a HTML tag.     | `editor.emmet.action.wrapWithAbbreviation`     |
 |   <kbd>CAPS</kbd> + <kbd>S</kbd>       |          Saves the current file.     | `workbench.action.files.save`     |
