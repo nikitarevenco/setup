@@ -1,8 +1,8 @@
 <details>
 <summary><h2>VSCode Shortcuts</h2></summary>
-<br>
 
 #### ALT
+
 | Shortcut | Effect | Name | 
 | -------- | ------ | ------ |
 |   <kbd>ALT</kbd> + <kbd>1-9</kbd>       |          Go to editor number.     | `workbench.action.openEditorAtIndex`     |
@@ -13,6 +13,7 @@
 |   <kbd>ALT</kbd> + <kbd>↓</kbd>       |          Moves the current line to the line below.     | `editor.action.moveLinesDownAction`     |
 
 #### CTRL
+
 | Shortcut | Effect | Name | 
 | -------- | ------ | ------ |
 |   <kbd>CTRL</kbd> + <kbd>\</kbd>       |          Splits the current editor into two editors.     | `workbench.action.splitEditor`     |
@@ -44,6 +45,7 @@
 |   <kbd>CTRL</kbd> + <kbd>2</kbd>       |          Add selection to next find match.     | `editor.action.addSelectionToNextFindMatch`     |
 
 #### TERMINAL
+
 | Shortcut | Effect | Name | 
 | -------- | ------ | ------ |
 |   <kbd>CTRL</kbd> + <kbd>V</kbd> + <kbd>V</kbd>       |          Paste into terminal.     | `terminal.paste`     |
@@ -61,6 +63,7 @@
 |   <kbd>CTRL</kbd> + <kbd>H</kbd>        |          New terminal instance.     | `workbench.action.terminal.new`     |
 
 #### CAPS
+
 | Shortcut | Effect | Name | 
 | -------- | ------ | ------ |
 |   <kbd>CAPS</kbd> + <kbd>Z</kbd>       |          Removes HTML tag.     | `editor.emmet.action.removeTag`     |
@@ -76,6 +79,7 @@
 |   <kbd>CAPS</kbd> + <kbd>H</kbd>       |          Open VSC settings.     | `workbench.action.openSettings`     |
 
 #### BASIC
+
 | Shortcut | Effect | Name | 
 | -------- | ------ | ------ |
 |   <kbd>CTRL</kbd> + <kbd>+</kbd>       |          Zoom in.     | `workbench.action.zoomIn`     |
