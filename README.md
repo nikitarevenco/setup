@@ -96,3 +96,52 @@
 |   <kbd>SHIFT</kbd> + <kbd>BACKSPACE</kbd>       |          Deletes character to the right.     | `deleteRight`     |
 
 </details>
+
+<details>
+<summary><h2>Git Alias</h2></summary>
+
+##### 
+Git: Check status using `git s`.
+```bash
+git config --global alias.s ‘status -sb’
+```
+Git: Checkout using `git co`.
+```bash
+git config --global alias.co ‘checkout’
+```
+Git: List all branches in a nice format using `git br`.
+```bash
+git config --global alias.br ‘branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate’
+```
+Git: Reset to before committing the last commit using `git u`.
+```bash
+git config --global alias.u ‘reset HEAD~1 --mixed’
+```
+Git: Push changes to the current branch using `git d`.
+```bash
+git config --global alias.done ‘!git push origin HEAD’
+```
+Git: Log the commits in a nice format using `git lg`.
+```bash
+git config --global alias.lg ‘!git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30’
+```
+Git: Search specific commit by string using `git se`.
+```bash
+git config --global alias.se '!git rev-list --all | xargs git grep -F'
+```
+Git: List user defined config using `git gl`.
+```bash
+git config --global alias.gl 'config --global -l'
+```
+Git: Cherry pick using `git cp`
+```bash
+git config --global alias.cp 'cherry-pick'
+```
+Git: Visually display every branch on the project using `git tr`.
+```bash
+git config --global alias.tr 'log --oneline --graph --decorate --all'
+```
+
+Possibly adding more from [here](https://gist.github.com/0livare/4960a81addfbcdc48abfe855fae0af43).
+  
+</details>
