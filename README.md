@@ -100,7 +100,22 @@
 <details>
 <summary><h2>Git Alias</h2></summary>
 
-##### 
+To use all of these aliases, you may wish to copy them one-by-one. However, you can do all of them at once using this command:
+```bash
+git config --global alias.s 'status -sb'; 
+git config --global alias.co 'checkout'; 
+git config --global alias.br 'branch --format="%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]" --sort=-committerdate'; 
+git config --global alias.u 'reset HEAD~1 --mixed'; 
+git config --global alias.done '!git push origin HEAD'; 
+git config --global alias.lg '!git log --pretty=format:"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]" --abbrev-commit -30'; 
+git config --global alias.tr 'log --oneline --graph --decorate --all'; 
+git config --global alias.cp 'cherry-pick'; 
+git config --global alias.gl 'config --global -l'; 
+git config --global alias.se '!git rev-list --all | xargs git grep -F'; 
+git config --global alias.cc 'commit -m'; 
+git config --global alias.c 'commit';
+```
+ git config --global alias.c ‘commit’ ; git config --global alias.cc ‘commit -m’
 Git: Check status using `git s`.
 ```bash
 git config --global alias.s ‘status -sb’
@@ -116,6 +131,14 @@ git config --global alias.br ‘branch --format='%(HEAD) %(color:yellow)%(refnam
 Git: Reset to before committing the last commit using `git u`.
 ```bash
 git config --global alias.u ‘reset HEAD~1 --mixed’
+```
+Git: Commit using `git c`.
+```bash
+git config --global alias.c ‘git commit’
+```
+Git: Commit with a message using `git cc`.
+```bash
+git config --global alias.cc ‘git commit -m’
 ```
 Git: Push changes to the current branch using `git d`.
 ```bash
