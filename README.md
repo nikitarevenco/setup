@@ -29,7 +29,7 @@
 |   <kbd>CTRL</kbd> + <kbd>S</kbd>       |          Selects the current line or adds the next line to the selection.     | `expandLineSelection`     |
 |   <kbd>CTRL</kbd> + <kbd>0</kbd>       |          Toggles comment on selection.     | `editor.action.commentLine`     |
 |   <kbd>CTRL</kbd> + <kbd>[</kbd>       |          Folds the current code.     | `editor.fold`     |
-|   <kbd>CTRL</kbd> + <kbd>L</kbd>       |          Go to a specific line.     | `workbench.action.gotoLine`     |
+|   <kbd>F3</kbd>       |          Go to a specific line.     | `workbench.action.gotoLine`     |
 |   <kbd>CTRL</kbd> + <kbd>Q</kbd>       |          Go to symbol in current file.     | `workbench.action.gotoSymbol`     |
 |   <kbd>CTRL</kbd> + <kbd>1</kbd>       |          Go to symbol in current project.     | `workbench.action.showAllSymbols`     |
 |   <kbd>CTRL</kbd> + <kbd>E</kbd>       |          Go to a certain file.     | `workbench.action.showAllSymbols`     |
