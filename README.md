@@ -6,8 +6,8 @@
 | Shortcut | Effect | Name | 
 | -------- | ------ | ------ |
 |   <kbd>ALT</kbd> + <kbd>1-9</kbd>       |          Go to editor number.     | `workbench.action.openEditorAtIndex`     |
-|   <kbd>ALT</kbd> + <kbd>←</kbd>       |          Shrink selection.     | `editor.action.smartSelect.shrink`     |
-|   <kbd>ALT</kbd> + <kbd>→</kbd>       |          Expand selection.     | `editor.action.smartSelect.expand`     |
+|   <kbd>ALT</kbd> + <kbd>←</kbd>       |          Shrink selection. (JS BOOSTER)     | `unknown`     |
+|   <kbd>ALT</kbd> + <kbd>→</kbd>       |          Expand selection. (JS BOOSTER)    | `unknown`     |
 |   <kbd>ALT</kbd>       |          Toggles the small top bar with content like `File`, `Edit`, `Selection`, etc.     | `View: Toggle Menu Bar`     |
 |   <kbd>ALT</kbd> + <kbd>↑</kbd>       |          Moves the current line to the line above.     | `editor.action.moveLinesUpAction`     |
 |   <kbd>ALT</kbd> + <kbd>↓</kbd>       |          Moves the current line to the line below.     | `editor.action.moveLinesDownAction`     |
