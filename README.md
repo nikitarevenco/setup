@@ -169,3 +169,18 @@ git config --global alias.tr 'log --oneline --graph --decorate --all'
 Possibly adding more from [here](https://gist.github.com/0livare/4960a81addfbcdc48abfe855fae0af43).
   
 </details>
+
+```
+"editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+},
+"eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+],
+"editor.formatOnSave": true,
+"prettier.requireConfig": true,
+
+```
