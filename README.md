@@ -1,3 +1,29 @@
+Auto Close Tag
+Auto Import ES6 TS JSX TSX
+Auto Rename Tag
+Better Comments
+Code Spell Checker
+Color Highlight
+CSS Peek
+Error Lens
+ESLint
+Github Theme
+Highlight Matching Tag
+Image Preview
+Intellisnese for CSS Class names in HTML
+JavaScript code snippets
+JavaScript booster
+Live server
+Markdownlint
+Material icon theme
+Material product icons
+Multiple cursor case preserve
+path intellisense
+Prettier
+Prettier ESLint
+Surround
+Vscode pdf
+
 <details>
 <summary><h2>VSCode Shortcuts</h2></summary>
 
