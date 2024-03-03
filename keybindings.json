@@ -96,7 +96,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+l",
+    "key": "f3",
     "command": "workbench.action.gotoLine"
   },
   {
@@ -331,11 +331,6 @@
     "when": "inSearchEditor"
   },
   {
-    "key": "alt+left",
-    "command": "editor.action.smartSelect.shrink",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "shift+alt+left",
     "command": "-editor.action.smartSelect.shrink",
     "when": "editorTextFocus"
@@ -344,11 +339,6 @@
     "key": "alt+left",
     "command": "-workbench.action.terminal.focusPreviousPane",
     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-  },
-  {
-    "key": "alt+right",
-    "command": "editor.action.smartSelect.expand",
-    "when": "editorTextFocus"
   },
   {
     "key": "shift+alt+right",
@@ -373,11 +363,6 @@
   {
     "key": "ctrl+2",
     "command": "-workbench.action.focusSecondEditorGroup"
-  },
-  {
-    "key": "ctrl+c ctrl+c",
-    "command": "workbench.action.terminal.copySelection",
-    "when": "terminalTextSelectedInFocused || terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected || terminalFocus && terminalTextSelected && terminalTextSelectedInFocused || terminalHasBeenCreated && terminalTextSelected && terminalTextSelectedInFocused || terminalProcessSupported && terminalTextSelected && terminalTextSelectedInFocused"
   },
   {
     "key": "ctrl+shift+c",
@@ -830,5 +815,66 @@
   {
     "key": "ctrl+4",
     "command": "workbench.view.extension.references-view"
+  },
+  {
+    "key": "ctrl+0",
+    "command": "-workbench.action.focusSideBar"
+  },
+  {
+    "key": "ctrl+0",
+    "command": "editor.action.commentLine"
+  },
+  {
+    "key": "capslock j",
+    "command": "git.commitMessageAccept"
+  },
+  {
+    "key": "ctrl+7",
+    "command": "welcome.showNewFileEntries"
+  },
+  {
+    "key": "ctrl+alt+meta+n",
+    "command": "-welcome.showNewFileEntries"
+  },
+  {
+    "key": "ctrl+7",
+    "command": "-workbench.action.focusSeventhEditorGroup"
+  },
+  {
+    "key": "capslock a",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "f3",
+    "command": "-editor.action.nextMatchFindAction",
+    "when": "editorFocus"
+  },
+  {
+    "key": "f3",
+    "command": "-workbench.action.terminal.findNext",
+    "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+  },
+  {
+    "key": "f3",
+    "command": "-list.find",
+    "when": "listFocus && listSupportsFind"
+  },
+  {
+    "key": "capslock 5",
+    "command": "workbench.action.terminal.copySelection"
+  },
+  {
+    "key": "alt+right",
+    "command": "javascriptBooster.extendSelection"
+  },
+  {
+    "key": "alt+left",
+    "command": "javascriptBooster.shrinkSelection"
   }
 ]
