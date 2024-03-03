@@ -1,3 +1,11 @@
+# extensions
+transparent shell
+just perfection
+tiling assistant
+dash to dock
+blur my shell
+applications menu
+
 # user settings
 
 {
