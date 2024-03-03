@@ -1,3 +1,96 @@
+# user settings
+
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.autoClosingBrackets": "always",
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.fontSize": 22,
+  "hediet.vscode-drawio.resizeImages": null,
+  "cSpell.userWords": [
+    "avgtemp",
+    "Btns",
+    "divs",
+    "forecastday",
+    "todos",
+    "Xdifference"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.env.linux": {},
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.inlayHints.enabled": "off",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f",
+    "editorError.foreground": "#ff555500",
+    "editorWarning.foreground": "#fbff0000",
+    "editorInfo.foreground": "#0022ff00"
+  },
+  "diffEditor.wordWrap": "off",
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": true,
+  "glassit.alpha": 255,
+  "git.enableSmartCommit": true,
+  "editor.minimap.enabled": false,
+  "git.confirmSync": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "editor.fontLigatures": true,
+  "disableLigatures.mode": "Line",
+  "workbench.productIconTheme": "material-product-icons",
+  "todohighlight.keywords": [],
+  "todohighlight.defaultStyle": {
+    "color": "FF0000"
+  },
+  "codesnap-plus.containerPadding": "0em",
+  "codesnap-plus.roundedCorners": false,
+  "codesnap-plus.showWindowControls": false,
+  "errorLens.scrollbarHackEnabled": true,
+  "cSpell.diagnosticLevel": "Hint",
+  "window.menuBarVisibility": "hidden",
+  "emmet.preferences": {},
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.rightClickBehavior": "selectWord",
+  "terminal.integrated.tabs.title": "${process}${task}",
+  "terminal.integrated.tabs.enabled": false,
+  "editor.dragAndDrop": false,
+  "window.zoomLevel": 2,
+  "console-ninja.showWhatsNew": false,
+  "console-ninja.featureSet": "Community",
+  "console-ninja.dateTimeFormat": "",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "errorLens.exclude": [
+    "⏎|·",
+    "Empty components are self-closing",
+    "Replace"
+  ],
+  "errorLens.messageBackgroundMode": "message",
+  "errorLens.problemRangeDecorationEnabled": true,
+  "errorLens.editorHoverPartsEnabled": {
+    "messageEnabled": true
+  },
+  "errorLens.gutterIconSet": "squareRounded"
+}
+
+
+# extensions
+
 Auto Close Tag
 Auto Import ES6 TS JSX TSX
 Auto Rename Tag
