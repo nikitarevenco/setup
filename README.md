@@ -1,3 +1,28 @@
+# vscode
+```
+F1: Rename File
+F2: New File
+
+CTRL + SHIFT + F: Find in all files
+CTRL + D: Delete lines
+CTRL + R: Go to references
+CTRL + T: Quick Fix
+CTRL + L: Go to line
+CTRL + 2: Add selection to next find match
+CTRL + SHIFT + 2: Add all selections to next find match
+CTRL + B: Open and focus breadcrumbs
+CTRL + S: Show call hierarchy
+
+CAPS + S: Save file
+CAPS + Up: Move line up
+CAPS + Down: Move line down
+
+ALT + Right: Expand selection
+ALT + Left: Shrink selection
+```
+
+
+
 # extensions
 transparent shell
 just perfection
