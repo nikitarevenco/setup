@@ -18,6 +18,8 @@ CTRL + £: Open command palette
 CAPS + V: Toggle view
 CAPS + T: Toggle terminal
 CAPS + S: Save file
+CAPS + Right: Go to end of line
+CAPS + Left: Go to start of line
 CAPS + Up: Move line up
 CAPS + Down: Move line down
 
