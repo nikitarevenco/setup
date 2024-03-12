@@ -3,6 +3,23 @@
 F1: Rename File
 F2: New File
 
+150 60
+
+CTRL + UpArrow: Copy line up
+CTRL + DownArrow: Copy line down
+CTRL + RightArrow:  Expand selection
+CTRL + LeftArrow: Shrink selection
+
+ALT + UpArrow: Focus editor up
+ALT + DownArrow: Focus editor down
+ALT + RightArrow: Focus editor right
+ALT + LeftArrow: Focus editor left
+
+CAPS + UpArrow: Copy
+CAPS + RightArrow: Paste
+CAPS + LeftArrow: Cut
+CAPS + DownArrow: Add selection to next find match
+
 CTRL + Q: Go to symbol
 CTRL + SHIFT + F: Find in all files
 CTRL + D: Delete lines
