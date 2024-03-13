@@ -4,6 +4,22 @@ F1: Rename File
 F2: New File
 
 150 60
+CAPS + C: Debugging
+CAPS + Y: Open terminal
+CAPS + G: File explorer
+CAPS + <: Source control
+CAPS + F: Search menu
+CAPS + S: Save file
+CAPS + .: Focus active editor
+CAPS + ,: Focus sidebar
+CAPS + P: Toggle sidebar visibility
+CAPS + L: Switch to next editor
+CAPS + R: Switch to previous editor
+
+< + UpArrow: Move editor up
+< + DownArrow: Move editor down
+< + RightArrow: Move editor right
+< + LeftArrow: Move editor left 
 
 CTRL + UpArrow: Copy line up
 CTRL + DownArrow: Copy line down
