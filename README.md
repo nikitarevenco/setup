@@ -4,6 +4,8 @@ F1: Rename File
 F2: New File
 
 150 60
+CAPS + H: Quick open
+CAPS + T: Quick fix
 CAPS + C: Debugging
 CAPS + Y: Open terminal
 CAPS + G: File explorer
